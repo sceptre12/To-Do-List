@@ -76,6 +76,9 @@ button{
 .tooltip{
     text-transform: uppercase;
 }
+ul:focus{
+    outline: #e74c3c auto 5px;
+}
 li{
     font-size: 2vw;
 }
