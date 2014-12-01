@@ -29,6 +29,9 @@ $(document).ready(function(){
 			}
 		}
 	});
+	$(function () {
+  		$('[data-toggle="tooltip"]').tooltip()
+	});
 });
 function resetUl(){
 	$('ul').empty().wrapInner("<li></li><li></li><li></li><li></li>");
