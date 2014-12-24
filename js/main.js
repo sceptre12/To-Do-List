@@ -9,9 +9,6 @@ $(window).load(function(){
 
 $(document).ready(function(){
 
-	$('.carousel').carousel({
-  		interval: 3800
-	});
 	// function to clear local storage 
 	$($('button')[1]).click(function(){
 		localStorage.clear();
